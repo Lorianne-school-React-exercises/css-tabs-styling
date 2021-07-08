@@ -1,0 +1,48 @@
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tab-text {
+  margin-top: 8px;
+}
+.tab-text:active {
+  color: rgb(56, 76, 255);
+}
+
+.tabs-container {
+  display: flex;
+  /* width: 500px; */
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  border-bottom: solid 3px rgb(0, 0, 0);
+  /* box-shadow: -2px 2px 2px 0px rgba(0, 0, 0, 0.4); */
+}
+
+.div {
+  /* width: 100px; */
+  height: 50px;
+  background-color: rgb(253, 74, 106);
+  margin-bottom: -3px;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  text-align: center;
+  box-shadow: -2px -2px 2px rgba(66, 66, 66, 0.4);
+  border-top: solid 2px rgb(0, 0, 0);
+  border-right: solid 2px rgb(0, 0, 0);
+  border-left: solid 2px rgb(0, 0, 0);
+  border-bottom: solid 2px rgb(0, 0, 0);
+}
+.div:hover {
+  background-color: rgb(253, 121, 145);
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+}
+.div:active {
+  background-color: rgb(255, 255, 255);
+  border-bottom: solid 2px rgb(255, 255, 255);
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
+}
