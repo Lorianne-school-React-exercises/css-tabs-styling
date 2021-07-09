@@ -3,7 +3,8 @@
 }
 
 .tab-text {
-  margin-top: 8px;
+  margin-top: 10px;
+  white-space: nowrap;
 }
 .tab-text:active {
   color: rgb(56, 76, 255);
@@ -15,6 +16,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: nowrap;
   border-bottom: solid 3px rgb(0, 0, 0);
   /* box-shadow: -2px 2px 2px 0px rgba(0, 0, 0, 0.4); */
 }
@@ -46,3 +48,4 @@
   border-bottom: solid 2px rgb(255, 255, 255);
   box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);
 }
+
