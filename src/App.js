@@ -5,16 +5,16 @@ export default function App() {
     <div className="App">
       <div className="tabs-container">
         <div className="div div1">
-          <h2 className="tab-text">News</h2>
+          <h3 className="tab-text">News</h3>
         </div>
         <div className="div div2">
-          <h2 className="tab-text">Weather</h2>
+          <h3 className="tab-text">Weather</h3>
         </div>
         <div className="div div3">
-          <h2 className="tab-text">Currency</h2>
+          <h3 className="tab-text">Currency</h3>
         </div>
         <div className="div div4">
-          <h2 className="tab-text">Health Watch</h2>
+          <h3 className="tab-text">Health Watch</h3>
         </div>
       </div>
     </div>
